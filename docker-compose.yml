@@ -1,0 +1,58 @@
+version: '3.8'
+
+services:
+  nginx:
+    image: nginx:alpine
+    container_name: boioyala-server
+    restart: always
+    ports:
+      - 443:80
+    volumes:
+      - ./api:/var/www
+      - ./.docker/nginx:/etc/nginx/conf.d
+    depends_on:
+      - api
+    networks:
+      - boioyala-net
+
+  api:
+    build:
+      context: ./
+      dockerfile: ./.docker/php/Dockerfile
+    image: boioyala-php
+    container_name: boioyala-api
+    depends_on:
+      - db
+      - redis
+    volumes:
+      - ./api:/var/www
+    restart: always
+    networks:
+      - boioyala-net
+
+  db:
+    image: mysql:latest
+    container_name: boioyala-db
+    volumes:
+      - ./data/mysql:/var/lib/mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=password
+      - MYSQL_DATABASE=boioyala
+      - MYSQL_USER=boioyala
+      - MYSQL_PASSWORD=boioyala
+    restart: always
+    networks:
+      - boioyala-net
+
+  redis:
+    image: redis:alpine
+    container_name: boioyala-redis
+    restart: always
+    volumes:
+      - ./data/redis:/data
+    networks:
+      - boioyala-net
+
+networks:
+  boioyala-net:
+    driver: bridge

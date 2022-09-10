@@ -1,0 +1,1299 @@
+input:focus,
+select:focus,
+button:focus,
+textarea:focus {
+    outline: none;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+.jumbotron {
+    margin-bottom: -2rem;
+}
+
+@media screen and (min-width: 575px) {
+    .jumbotron {
+        margin-bottom: 0;
+    }
+}
+
+/*----------------Header Style---------------------*/
+/* @media screen and (min-width: 575px) {
+	.search_form >input{
+		width: 420px;
+		margin-bottom: 10px;
+	}
+} */
+.btn-sign > button {
+    background-color: #76ba5c;
+    color: #fff;
+    margin-left: 10px;
+    border-color: #76ba5c;
+    padding: 6px 17px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.btn-sign > button:hover {
+    background-color: #76ba5c;
+    color: #fff;
+    margin-left: 10px;
+    border-color: #76ba5c;
+    padding: 6px 17px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+    box-shadow: 5px 4px 7px #8888;
+}
+
+.banner-txt {
+    color: #fff;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+/*----------------Modal Style start---------------------*/
+
+.Modal_header {
+    background-color: #4ca746;
+    color: #fff;
+    align-content: center;
+}
+
+.Modal_header > button {
+    color: white;
+}
+
+.Modal_header > button:hover {
+    color: white;
+    opacity: inherit;
+    display: contents;
+}
+
+.modal_btn > button {
+    align-items: center;
+    text-transform: uppercase;
+    padding: 6px 38px;
+    background-color: #76ba5c;
+    border-color: #76ba5c;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 10px 0px;
+}
+
+.modal_btn > button:hover {
+    align-items: center;
+    text-transform: uppercase;
+    padding: 6px 38px;
+    background-color: #76ba5c;
+    border-color: #76ba5c;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 10px 0px;
+    box-shadow: 5px 4px 7px #8888;
+}
+
+.login_P_txt > a {
+    float: right;
+    color: #76ba5c;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times,
+        "Times New Roman", "serif";
+    font-size: 13px;
+}
+
+.login_P_txt > a:hover {
+    float: right;
+    color: #76ba5c;
+    text-decoration: none;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times,
+        "Times New Roman", "serif";
+    font-size: 13px;
+}
+
+.create_here_txt > p > a {
+    color: #76ba5c;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times,
+        "Times New Roman", "serif";
+    font-size: 19px;
+}
+
+.create_here_txt > p > a:hover {
+    color: #76ba5c;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times,
+        "Times New Roman", "serif";
+    text-decoration: none;
+    font-size: 19px;
+}
+
+.modal_login_btn > button {
+    margin-top: 25px;
+}
+
+.modal_login_btn > button:hover {
+    margin-top: 25px;
+}
+
+/*----------------Modal Style end---------------------*/
+
+/*----------------Slider and Search start---------------------*/
+
+.search-area {
+    background-image: url("../../../../public/assets/frontend/images/bg.png");
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 90px;
+    padding-bottom: 145px;
+}
+
+.info-header-txt {
+    margin: 90px 0;
+}
+
+.banner-btn > button {
+    width: 120px;
+    margin: 30px 0;
+    color: white;
+    border-color: white;
+    border: 2px solid;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 7px 0;
+    padding-left: 24px;
+}
+
+.banner-btn > button:hover {
+    width: 120px;
+    margin: 30px 0;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 7px 0;
+    padding-left: 24px;
+    border: 2px solid;
+    background-color: #76ba5c;
+    border-color: #76ba5c;
+}
+
+.banner-btn {
+    position: relative;
+}
+
+.banner-btn:after {
+    content: "\f64f";
+    position: absolute;
+    right: 158px;
+    top: 33px;
+    font-family: "fontAwesome";
+    color: #fff;
+    font-size: 25px;
+}
+
+.banner-btn2 > button {
+    width: 160px;
+    margin: 30px 0;
+    color: white;
+    border: 2px solid;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 7px 0;
+    padding-left: 30px;
+    background-color: #76ba5c;
+    border-color: #76ba5c;
+}
+
+.banner-btn2 > button:hover {
+    width: 160px;
+    margin: 30px 0;
+    color: white;
+    border: 2px solid;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 7px 0;
+    padding-left: 30px;
+    background: none;
+    border-color: white;
+}
+
+.banner-btn2 {
+    position: relative;
+}
+
+.banner-btn2:after {
+    content: "\f19c";
+    position: absolute;
+    right: 177px;
+    top: 33px;
+    font-family: "fontAwesome";
+    color: #fff;
+    font-size: 25px;
+}
+
+.banner-txt > p {
+    font-family: cursive;
+}
+
+.banner-txt > h4 {
+    font-family: serif;
+    margin-bottom: 24px;
+}
+
+.input-group.md-form.form-sm.form-2 input {
+    border-top-left-radius: 0.325rem;
+    border-bottom-left-radius: 0.35rem;
+}
+
+.input-group.md-form.form-sm.form-2 input.red-border {
+    border: 1px solid #76ba5c;
+}
+
+/*----------------Slider and search section End---------------------*/
+
+/*----------------New arrival Section start---------------------*/
+
+#basic-text1 {
+    background-color: #76ba5c;
+    border-color: #76ba5c;
+}
+
+.new-arrival-text > h1 {
+    text-align: center;
+    font-size: 23px;
+    letter-spacing: 13px;
+    font-family: cursive;
+}
+
+.hr-tag {
+    size: 5px;
+    width: 450px;
+    padding-top: 0px;
+    margin-top: 0px;
+    border-width: 2px;
+    border-color: #76ba5c;
+    margin-bottom: 50px;
+}
+
+.book-images {
+    position: relative;
+    align-items: center;
+}
+
+.book-images > img {
+    display: block;
+    height: 245px;
+    padding-bottom: 10px;
+}
+
+.book-blog > h6 {
+    margin: 0px;
+}
+
+.book-blog > p {
+    margin: 0px;
+}
+
+.book-blog > h6 > a {
+    margin-top: 8px;
+    color: black;
+    font-family: inherit;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.book-blog > h6 > a:hover {
+    margin-top: 8px;
+    color: #76ba5c;
+    font-family: inherit;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.book-blog > p > a {
+    text-decoration: none;
+    color: #76ba5c;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+.book-blog > p > a:hover {
+    color: black;
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+.new_arrival_view_more > a > button {
+    margin-top: 35px;
+    background-color: #76ba5c;
+    color: #fff;
+    margin-left: 10px;
+    border-color: #76ba5c;
+    padding: 6px 17px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.new_arrival_view_more > a > button:hover {
+    margin-top: 35px;
+    background-color: #76ba5c;
+    color: #fff;
+    margin-left: 10px;
+    border-color: #76ba5c;
+    padding: 6px 17px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+    box-shadow: 5px 4px 7px #8888;
+}
+
+/*----------------New arrival Section end---------------------*/
+
+/*----------------Highest Donar Section Start---------------------*/
+
+.highest_doner_sec {
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+
+.highest_doner_sec > h1 {
+    text-align: center;
+    font-size: 23px;
+    letter-spacing: 13px;
+    font-family: cursive;
+}
+
+.profile-header-container {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.profile-header-img {
+    padding: 5px;
+}
+
+.profile-header-img > img {
+    height: 120px;
+    width: 120px;
+    border: 2px solid #76ba5c;
+    box-shadow: 2px 4px 6px #8888;
+}
+
+.profile-header {
+    margin-top: 43px;
+}
+
+.rank-label-container {
+    margin-top: -17px;
+    z-index: 1000;
+    text-align: center;
+}
+
+.label.label-default.rank-label {
+    background-color: #76ba5c;
+    padding: 4px 10px 4px 10px;
+    border-radius: 27px;
+    color: #fff;
+}
+
+.profile-header-container > a > p {
+    text-decoration: none;
+    color: #76ba5c;
+    margin: 0px;
+}
+
+.profile-header-container > p {
+    margin: 0px;
+    display: inline-block;
+}
+
+.profile-header-container > h5 {
+    margin: 0px;
+    display: inline-block;
+    color: #76ba5c;
+}
+
+/*----------------Highest Donar Section end---------------------*/
+
+/*-- ======================User Review Section Start========================----*/
+
+.review_box {
+    background-color: #0797d6;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 430px;
+    box-shadow: 3px 3px 6px #7788;
+}
+
+.reviewer_info {
+    padding-left: 20%;
+}
+
+.reviewer_info > img {
+    border: 2px solid;
+    border-color: white;
+}
+
+.reviewer_info > p {
+    color: white;
+}
+
+.review_content {
+    background-color: white;
+    margin-left: 15px;
+    margin-right: 15px;
+    height: 331px;
+    border-radius: 10px;
+    margin-top: -14px;
+}
+
+.review_content > p {
+    margin: 5px;
+    font-size: 16px;
+    text-align: justify;
+    font-family: unset;
+}
+
+/*-- ======================User Review Section End========================----*/
+
+/*-------------------------------------------------------dashboard.php Start -----------------------------------------------*/
+
+/*----------------Profile Head Section Start dashboard.php ---------------------*/
+.profile_pic > img {
+    box-shadow: 3px 3px 6px #8888;
+    width: 100px;
+    height: 100px;
+}
+
+.profile_pic > h2 {
+    font-size: 20px;
+    margin-top: 6px;
+}
+
+.profile_sec {
+    background-color: #fff;
+    padding: 27px 0px;
+}
+
+.inputfile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.inputfile + label {
+    max-width: 100%;
+    font-size: 14px;
+    font-weight: bold;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    text-align: center;
+}
+
+.inputfile + label figure {
+    width: 154px;
+    height: 154px;
+    border-radius: 50%;
+    background-color: transparent;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 6px;
+}
+
+.inputfile + label figure img {
+    height: 140px;
+    width: 140px;
+    border: 2px solid #76ba5c;
+    box-shadow: 2px 4px 6px #8888;
+}
+
+.inputfile + label figure p {
+    position: absolute;
+    text-align: center;
+    display: block;
+    opacity: 0;
+}
+
+.head-box {
+    color: #76ba5c;
+    margin-top: -16px;
+    border: 2px solid;
+    text-align: center;
+    width: 72px;
+    border-color: #76ba5c;
+    position: absolute;
+    padding: 6px;
+    font-size: 39px;
+    border-radius: 8.5px;
+}
+
+/*----------------Profile Head Section End dashboard.php ---------------------*/
+
+/*--==============Profile Menu Section Start====================--*/
+
+.btn_sec {
+    padding-top: 40px;
+}
+
+.menu_btn {
+    border: none;
+    padding: 0px 0px;
+    margin: 10px 0px;
+}
+
+.menu_btn_content {
+    background-color: white;
+    color: #000;
+    border: 2px solid;
+    text-align: center;
+    width: 209px;
+    border-color: #000;
+    padding: 18px;
+    font-size: 23px;
+    border-radius: 3.5px;
+}
+
+.menu_btn_content:hover {
+    background-color: white;
+    color: #76ba5c;
+    border: 2px solid;
+    text-align: center;
+    width: 209px;
+    border-color: #76ba5c;
+    padding: 18px;
+    font-size: 23px;
+    border-radius: 3.5px;
+}
+
+.menu_btn_content:active {
+    background-color: white;
+    color: #76ba5c;
+    border: 2px solid;
+    text-align: center;
+    width: 209px;
+    border-color: #76ba5c;
+    padding: 18px;
+    font-size: 23px;
+    border-radius: 3.5px;
+}
+
+/*--==============Profile Menu Section End====================--*/
+
+/*----------------Donation Section Start dashboard.php ---------------------*/
+.donation-sec-text > h1 {
+    padding-top: 50px;
+    text-align: center;
+    font-size: 23px;
+    letter-spacing: 5px;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+.donate_sec {
+    border: 1px solid;
+    padding-top: 11px;
+    background-color: white;
+}
+
+.donate_hr_bar {
+    size: 5px;
+    width: 450px;
+    padding-top: 0px;
+    margin-top: 0px;
+    border-width: 2px;
+    border-color: #76ba5c;
+    margin-bottom: 30px;
+}
+
+.donate_book_table table thead tr th {
+    font-size: 16px;
+}
+
+.donate_book_table table tbody tr td {
+    font-size: 14px;
+}
+
+.donate_book_table table tbody tr td img {
+    width: 24px;
+}
+
+.table_body > tr > td {
+    padding: 5px 0px;
+    padding-left: 10px;
+}
+
+/*----------------Donation Section End dashboard.php ---------------------*/
+
+/*=========My account Section dashboard.php start==============*/
+.ma_about_me {
+    background-color: white;
+    margin-bottom: 10px;
+    margin-top: 35px;
+    border-top: 3px solid;
+    border-top-color: #76ba5c;
+    padding: 0.75rem !important;
+    box-shadow: 4px 4px 4px #8888;
+}
+
+.ma_about_info {
+    padding: 17px 35px;
+    background-color: white;
+    box-shadow: 4px 4px 4px #8888;
+    margin: 10px 0px;
+}
+
+.form-group > label {
+    margin-left: 0.5rem !important;
+    margin-top: 0.5rem !important;
+    margin-bottom: 0rem !important;
+}
+
+.form-group > input {
+    margin-bottom: 0.5rem !important;
+}
+
+/*=========My account Section dashboard.php end ==============*/
+
+/*-------------------------------------------------------dashboard.php End -----------------------------------------------*/
+
+/*--------------Book profile Head Section Start book_profile.php------------------*/
+
+.book_head {
+    background: white;
+    /* padding-right: 1px; */
+    text-align: center;
+}
+
+.head_img {
+    border: 1px solid;
+    margin: 10px 0px;
+}
+
+.head_img > img {
+    width: 88%;
+    padding: 8px 0px;
+    transform: scale(1);
+    transition: 1s;
+}
+
+.head_img > img:hover {
+    transform: scale(1.4);
+}
+
+.book_content {
+    background-color: white;
+    margin-left: 21px;
+    padding: 18px 33px;
+    colo: #76ba5c;
+}
+
+.book_content > h4 {
+    border-bottom: 1px solid;
+    padding-bottom: 5px;
+    color: #76ba5c;
+    border-color: #76ba5c;
+}
+
+.book_content > p {
+    margin: 0;
+    color: #76ba5c;
+    font-family: monospace;
+    font-size: 13px;
+}
+
+.book_info > p {
+    margin: 7px 0px;
+    /*	color: #76BA5C;*/
+    font-family: monospace;
+    font-size: 14px;
+}
+
+.book_content > hr {
+    margin: 7px 0px;
+    border: 1px thin;
+    border-color: #76ba5c;
+}
+
+.post_box {
+    border: 1px solid;
+    border-color: #76ba5c;
+    border-radius: 7px;
+    text-align: center;
+    padding-top: 10px;
+    margin-right: 15px;
+}
+
+.post_box > h6 {
+    font-family: cursive;
+}
+
+.post_box > hr {
+    margin: 0px;
+    border-color: #76ba5c;
+}
+
+.post_box > img {
+    width: 80px;
+    height: 80px;
+    margin: 7px 0px;
+}
+
+.post_box > p {
+    font-family: cursive;
+    color: #76ba5c;
+}
+
+.requestbtn > button {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.book_doner {
+    background-color: white;
+    margin-left: 21px;
+}
+
+.doner_box {
+    border: 3px solid;
+    border-color: #76ba5c;
+    border-radius: 15px;
+    text-align: center;
+    width: 217px;
+    margin-top: 47px;
+    margin-left: 16px;
+    margin-bottom: 20px;
+}
+
+.doner_box_head {
+    background-color: #76ba5c;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.doner_box_head > h5 {
+    padding: 13px 0px;
+}
+
+.doner_box > img {
+    width: 120px;
+    height: 120px;
+    margin-top: 10px;
+}
+
+.doner_box > a > h5 {
+    margin: 0px;
+    padding-top: 15px;
+    text-decoration: none;
+    color: #76ba5c;
+}
+
+.doner_box > p {
+    margin-bottom: 15px;
+    color: #76ba5c;
+    font-family: Consolas, "Andale Mono";
+    font-style: italic;
+}
+
+.new_arrival_book {
+    background-color: white;
+    margin: 0px 54px;
+    padding: 39px 0px;
+    margin-top: 31px;
+    box-shadow: 4px 4px 3px #8888;
+}
+
+@media (min-width: 576px) {
+    .new_arrival_book {
+        background-color: white;
+        margin: 0px 54px;
+        padding: 39px 0px;
+        margin-top: 31px;
+        box-shadow: 4px 4px 3px #8888;
+    }
+}
+
+/*--------------Book profile Head Section end book_profile.php------------------*/
+
+/*=========== ------------------book.php   Section Strart---------------------------------=============*/
+.book_list {
+    border: 1px solid;
+    border-color: #76ba5c;
+    margin: 22px 0px;
+}
+
+.book_list:hover {
+    box-shadow: 4px 4px 4px #8888;
+}
+
+.book_list_content {
+    padding: 1rem 1rem 1rem 0px;
+}
+
+.book_list_content > img {
+    width: 100px;
+    height: 150px;
+}
+
+.book_list_info > a {
+    text-decoration: none;
+}
+
+.book_list_info > a > h5 {
+    margin: 0px;
+    font-size: 18px;
+    font-family: initial;
+    color: #76ba5c;
+}
+
+.book_list_info > a {
+    text-decoration: none;
+}
+
+.book_list_info > p {
+    margin: 0px;
+    font-family: monospace;
+}
+
+.poster_profile > p {
+    margin: 0px;
+    font-family: initial;
+    display: inline-block;
+    font-family: monospace;
+}
+
+.poster_profile > img {
+    width: 35px;
+    border: 1px solid;
+    border-color: #76ba5c;
+    display: inline-block;
+    margin-left: 3px;
+}
+
+.poster_profile > h6 {
+    display: inline-block;
+}
+
+.poster_profile > h6 > a {
+    color: #76ba5c;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+    margin-left: 5px;
+}
+
+.btn_request > button {
+    background-color: #76ba5c;
+    color: #fff;
+    margin-left: 10px;
+    margin-top: 5px;
+    border-color: #76ba5c;
+    padding: 5px 50px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.btn_request > button:hover {
+    background-color: #76ba5c;
+    color: #fff;
+    margin-left: 10px;
+    border-color: #76ba5c;
+    padding: 5px 50px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+    box-shadow: 5px 4px 7px #8888;
+}
+
+.doner_box_bl {
+    border: 1px solid;
+    border-color: #76ba5c;
+    border-radius: 15px;
+    text-align: center;
+    width: 142px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.doner_box_bl_head {
+    background-color: #76ba5c;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.doner_box_bl_head > h5 {
+    padding: 3px 0px;
+    font-size: 16px;
+}
+
+.doner_box_bl > img {
+    width: 75px;
+    height: 75px;
+    margin-top: 0px;
+}
+
+.doner_box_bl > a {
+    text-decoration: none;
+}
+
+.doner_box_bl > a > h5 {
+    margin: 0px;
+    padding-top: 3px;
+    text-decoration: none;
+    color: #76ba5c;
+    font-size: 16px;
+}
+
+.doner_box_bl > p {
+    margin-bottom: 2px;
+    color: #76ba5c;
+    font-family: Consolas, "Andale Mono";
+    font-style: italic;
+}
+
+.share_on {
+    background-color: white;
+    padding: 20px;
+    margin-top: 12px;
+}
+
+.share_on_i ul {
+    transform: translate(13%, -20%);
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+
+.share_on_i ul li {
+    list-style: none;
+}
+
+.share_on_i ul li a {
+    position: relative;
+    display: block;
+    padding: 18px 20px;
+    text-decoration: none;
+}
+
+.sidebar_box {
+    text-align: center;
+    background-color: #e9ecef;
+    padding: 18px 11px;
+    margin-bottom: 15px;
+}
+
+.sidebar_box > h5 > a {
+    color: #76ba5c;
+    text-decoration: none;
+}
+
+.sidebar_box > p > a {
+    font-size: 14px;
+    text-decoration: none;
+    font-family: cursive;
+}
+
+.sidebar_box_1 {
+    background-color: #e9ecef;
+    padding: 18px 11px;
+    margin-bottom: 15px;
+    padding-left: 20px;
+}
+
+.slider_box_1 > p {
+    margin: 8px 0px;
+}
+
+.slider_cb > label {
+    margin-left: 5px;
+}
+
+.tab_text > h4 {
+    padding: 13px 14px;
+    font-size: 27px;
+    font-family: serif;
+}
+
+.nav-tabs {
+    border: none;
+}
+
+.tab_head li a {
+    padding: 10px 20px;
+    text-decoration: none;
+    border-bottom: 1px solid;
+    color: black;
+    border-color: black;
+}
+
+.tab_head li.active a {
+    padding: 10px 20px;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-top: 4px solid;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-top-color: #76ba5c;
+    border-bottom: none;
+    color: #76ba5c;
+}
+
+.tab-content {
+    margin-top: 1rem;
+    font-size: 15px;
+    font-family: inherit;
+    text-align: justify;
+}
+
+.tab_table_body > tr > th {
+    width: 20%;
+    background-color: #f3f3f3;
+}
+
+.tab_table_body > tr > td {
+    background-color: #fff;
+}
+
+.tab_table_body tr {
+    font-size: 12px;
+    font-family: monospace;
+    padding: 8px 14px;
+}
+
+.rev_box {
+    border: 1px solid;
+    border-color: #ced4da;
+}
+
+.rev_btn {
+    align-items: flex-end;
+}
+
+.rev_box > form .form-group > textarea {
+    border: none;
+    border-bottom: 1px solid;
+    border-color: #ced4da;
+}
+
+.rev_btn > button {
+    align-items: center;
+    padding: 5px 20px;
+    border-color: orange;
+    color: orange;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 5px 0 15px 0px;
+}
+
+.rev_btn > button:hover {
+    align-items: center;
+    padding: 5px 20px;
+    border-color: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 5px 0 15px 0px;
+    background-color: orange;
+}
+
+.rating {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    padding-left: 1rem;
+}
+
+.rating > input {
+    display: none;
+}
+
+.rating > label {
+    position: relative;
+    width: 1em;
+    font-size: 30px;
+    color: #ffd600;
+    cursor: pointer;
+}
+
+.rating > label::before {
+    content: "\2605";
+    position: absolute;
+    opacity: 0;
+}
+
+.rating > label:hover:before,
+.rating > label:hover ~ label:before {
+    opacity: 1 !important;
+}
+
+.rating > input:checked ~ label:before {
+    opacity: 1;
+}
+
+.rating:hover > input:checked ~ label:before {
+    opacity: 0.4;
+}
+
+.checked {
+    color: orange;
+}
+
+.rev_info > h1 {
+    display: inline-block;
+}
+
+.rev_info > p {
+    display: inline-block;
+    margin: 0;
+}
+
+.index {
+    font-size: 14px;
+    margin-top: 4px;
+}
+
+.index > span {
+    font-size: 12px;
+}
+
+.rst {
+    font-weight: 400;
+    margin-top: 1px;
+    margin-bottom: 2px;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.count {
+    font-size: 14px;
+    margin-left: 5px;
+    margin-top: 2px;
+}
+
+.count > p {
+    margin-bottom: 12px;
+}
+
+.btn {
+    border: 1px solid #e9ecef;
+    background: none;
+}
+
+.big {
+    font-size: 60px;
+    font-weight: 900;
+}
+
+button.focus,
+button:focus {
+    outline: 0;
+    box-shadow: none !important;
+}
+
+.btn {
+    color: #4ca746;
+}
+
+.com_img {
+    text-align: center;
+    display: inline-block;
+    position: relative;
+}
+
+.com_img img {
+    width: 80px;
+}
+
+.com_img p {
+    margin: 0;
+    font-size: 15px;
+    font-family: monospace;
+    font-style: italic;
+}
+
+.com_img p a {
+    text-decoration: none;
+    color: #76ba5c;
+}
+
+.com_content {
+    display: inline-block;
+    position: absolute;
+}
+
+.com_content p {
+    margin: 0;
+    padding: 17px 0 0 33px;
+}
+
+/*=========== book_profile.php   Section End=============*/
+
+/*=========== multi_form.php   Section Start=============*/
+
+.multi_box {
+    margin-top: 5rem;
+    padding: 2rem 1rem;
+    border: 1px solid;
+}
+
+/*=========== multi_form.php   Section End=============*/
+
+/*=========== footer.php   Section Start=============*/
+
+.footer {
+    padding: 5rem 0 3rem 0;
+    color: #999999;
+}
+
+.footer_1 p h5 h6 {
+    color: #999999;
+}
+
+.footer_2 ul {
+    list-style: none;
+    padding: 0px;
+}
+
+.footer_2 ul li {
+    padding: 2px;
+}
+
+.footer_2 ul li a {
+    padding: 2px;
+    color: #999999;
+}
+
+.footer_2 ul li a:hover {
+    padding: 2px;
+    color: #fff;
+    text-decoration: none;
+}
+
+/*=========== book_profile.php   Section End=============*/
+
+/* My css */
+.slick-arrow {
+    background: #0797d6;
+}
+.slick-arrow:hover {
+    background: #2dd304;
+}
